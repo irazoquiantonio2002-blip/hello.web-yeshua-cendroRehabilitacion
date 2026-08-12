@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="yeshuaLogoTitle">
+  <title id="yeshuaLogoTitle">Yeshua Centro de Rehabilitación</title>
+  <defs>
+    <linearGradient id="yeshuaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9B477F"/>
+      <stop offset="52%" stop-color="#74295D"/>
+      <stop offset="100%" stop-color="#37163D"/>
+    </linearGradient>
+    <linearGradient id="yeshuaAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE7A1"/>
+      <stop offset="46%" stop-color="#F7C04D"/>
+      <stop offset="100%" stop-color="#D88A08"/>
+    </linearGradient>
+    <linearGradient id="yeshuaRing" x1="25%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1B8"/>
+      <stop offset="45%" stop-color="#F6B942"/>
+      <stop offset="100%" stop-color="#B86907"/>
+    </linearGradient>
+    <radialGradient id="yeshuaShine" cx="34%" cy="24%" r="72%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="58%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softDepth" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#2C132F" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <circle cx="100" cy="100" r="96" fill="url(#yeshuaGrad)" filter="url(#softDepth)"/>
+  <circle cx="100" cy="100" r="94" fill="url(#yeshuaShine)"/>
+  <circle cx="100" cy="100" r="96" fill="none" stroke="url(#yeshuaRing)" stroke-width="4"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.18"/>
+
+  <!-- casa -->
+  <path d="M100 46 L155 90 V152 A6 6 0 0 1 149 158 H51 A6 6 0 0 1 45 152 V90 Z"
+        fill="none" stroke="#FFF9F1" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M100 46 L100 46" stroke="#FFF9F1" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- puerta en forma de arco -->
+  <path d="M84 158 V126 A16 16 0 0 1 116 126 V158 Z" fill="#FFF9F1" opacity="0.18"/>
+  <path d="M84 158 V126 A16 16 0 0 1 116 126 V158" fill="none" stroke="#FFF9F1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- corazon: encuentro contigo mismo -->
+  <path d="M100 118
+           C93 108, 76 110, 76 126
+           C76 140, 92 149, 100 156
+           C108 149, 124 140, 124 126
+           C124 110, 107 108, 100 118 Z"
+        fill="url(#yeshuaAccent)"/>
+  <path d="M88 118 C92 113, 98 113, 100 118" fill="none" stroke="#FFF8DF" stroke-width="3" stroke-linecap="round" opacity="0.62"/>
+</svg>
